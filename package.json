@@ -1,8 +1,8 @@
 {
-  "name": "origominimizeetuna",
+  "name": "iwminimizer",
   "version": "1.0.0",
   "description": "",
-  "main": "./origominimizeetuna.js",
+  "main": "./iwminimizer.js",
   "scripts": {
     "start": "npm run watch-js",
     "watch-js": "webpack-dev-server --config ./tasks/webpack.dev.js --mode development",

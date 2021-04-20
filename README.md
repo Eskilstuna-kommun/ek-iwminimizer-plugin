@@ -1,4 +1,4 @@
-# origo-minimize-etuna
+# iwMinimizer
 
 Ger möjlighet att minimera infowindow när en selektion har gjorts.
 Minimering görs genom att klicka på gruppens namn i infowindow.
@@ -12,10 +12,10 @@ Alternativt kan också en minimerings-knapp visas.
 <script type="text/javascript">
     var origo = Origo('index.json');
     origo.on('load', function (viewer) {
-      var origominimizeetuna = Origominimizeetuna({
+      var iwMinimizer = IwMinimizer({
           showMinimizeButton: true
         });
-      viewer.addComponent(origominimizeetuna);
+      viewer.addComponent(iwMinimizer);
     });
 </script>
 ```

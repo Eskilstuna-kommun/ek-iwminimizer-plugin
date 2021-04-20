@@ -13,10 +13,10 @@ module.exports = merge(common, {
   },
   output: {
     path: `${__dirname}/../../build/js`,
-    filename: 'origominimizeetuna.min.js',
+    filename: 'iwminimizer.min.js',
     libraryTarget: 'var',
     libraryExport: 'default',
-    library: 'origominimizeetuna'
+    library: 'IwMinimizer'
   },
   devtool: false,
   mode: 'production',

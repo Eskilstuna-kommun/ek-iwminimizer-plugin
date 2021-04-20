@@ -6,10 +6,10 @@ module.exports = merge(common, {
   output: {
     path: `${__dirname}/../../EK-extern/plugins`,
     publicPath: '/build/js',
-    filename: 'origominimizeetuna.js',
+    filename: 'iwminimizer.js',
     libraryTarget: 'var',
     libraryExport: 'default',
-    library: 'Origominimizeetuna'
+    library: 'IwMinimizer'
   },
   mode: 'development',
   module: {

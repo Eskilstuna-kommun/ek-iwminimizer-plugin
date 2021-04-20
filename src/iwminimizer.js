@@ -1,7 +1,7 @@
 import Origo from 'Origo';
 
 
-const Origominimizeetuna = function Origominimizeetuna(options = {}) {
+const IwMinimizer = function IwMinimizer(options = {}) {
   let minimizeButton;
   let previousSelection;
   let forceShow = false;
@@ -57,7 +57,7 @@ const Origominimizeetuna = function Origominimizeetuna(options = {}) {
   }
 
   return Origo.ui.Component({
-    name: 'Origominimizeetuna',
+    name: 'IwMinimizer',
     onInit() {
       minimizeButton = Origo.ui.Element({
         tagName: 'div',
@@ -112,4 +112,4 @@ const Origominimizeetuna = function Origominimizeetuna(options = {}) {
   });
 };
 
-export default Origominimizeetuna;
+export default IwMinimizer;

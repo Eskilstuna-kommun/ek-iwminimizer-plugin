@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: [
-    './origominimizeetuna.js'
+    './iwminimizer.js'
   ],
   module: {
     rules: [{
