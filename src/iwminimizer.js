@@ -14,7 +14,7 @@ const IwMinimizer = function IwMinimizer(options = {}) {
 
   function getNumberOfActiveSelectionGroups() {
     let counter = 0;
-    document.getElementsByClassName('urvalelement').forEach((element) => {
+    Array.from(document.getElementsByClassName('urvalelement')).forEach((element) => {
       if (!element.classList.contains('hidden')) {
         counter += 1;
       }
@@ -98,7 +98,7 @@ const IwMinimizer = function IwMinimizer(options = {}) {
         }
 
         if (listContainer) {
-          document.getElementsByClassName('urvalelement').forEach((element) => {
+          Array.from(document.getElementsByClassName('urvalelement')).forEach((element) => {
             if (!element.getAttribute('hasMinimizeListener')) {
               element.setAttribute('hasMinimizeListener', true);
               element.addEventListener('click', () => handleElementChanges(element));
